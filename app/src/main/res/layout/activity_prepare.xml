@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPATI"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:padding="18dp"
+        android:background="#FFC107"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="35sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="#ede9e9"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="6">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="5g"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Calories"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="10g"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Protein"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="5g"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Carbs"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="10g"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fat"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="5g"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fiber"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="View"
+                android:textColor="#D84315"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="All"
+                android:textColor="#D84315"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/btn"
+        android:padding="18dp"
+        android:paddingBottom="18dp"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:text="Prepare Meal"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Choose Size and Quantity \nof Your Receipe"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Meal"
+        android:id="@+id/confirm"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#D84315"
+        />
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="1dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

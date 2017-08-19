@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:background="@drawable/squre_linear_light"
+        android:text="Search for your goal"
+        android:paddingBottom="18dp"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:paddingTop="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="#cdcdcd"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/squre_linear_light">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:text="Search result"
+        android:paddingBottom="18dp"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:paddingTop="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"
+        />
+
+    </LinearLayout>
+</LinearLayout>

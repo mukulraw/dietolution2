@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/juice"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Product Name"
+        android:padding="5dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="180 grams"
+        android:padding="10dp"
+        android:layout_marginRight="5dp" />
+
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_marginStart="5dp"
+        android:text="Lorem Ipsum is simply dummy." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-180g"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Last Week Reminders"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/linearlight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+            android:drawableEnd="@drawable/pencilwrite"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="18dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily 10.A.M"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:drawableStart="@drawable/green_time"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created on:12 july17"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/calender"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/linearlight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+            android:drawableEnd="@drawable/pencilwrite"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="18dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily 10.A.M"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/green_time"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created on:12 july17"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/calender"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/linearlight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+            android:drawableEnd="@drawable/pencilwrite"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="18dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily 10.A.M"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/green_time"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created on:12 july17"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/calender"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:padding="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:text="Previous Reminders" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/linearlight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+            android:drawableEnd="@drawable/pencilwrite"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="18dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily 10.A.M"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/green_time"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created on:12 july17"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:drawableStart="@drawable/calender"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="10dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_plus_button"
+            android:drawableStart="@drawable/plus_button"
+            />
+</LinearLayout>
+    </ScrollView>

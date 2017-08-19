@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#009688">
+
+
+        <com.example.tvs.dietolution.RoundedImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ladkioooo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person Name"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person Name"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:padding="2dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="18dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:padding="18dp">
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#a7a5a5"/>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3456"
+                    android:gravity="center"
+                    android:textColor="#C6FF00"
+                    android:textSize="25sp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Steps"
+                    android:gravity="center"
+                    android:textColor="#C6FF00"
+                    android:layout_gravity="center_horizontal"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3456"
+                    android:gravity="center"
+                    android:textColor="#C6FF00"
+                    android:textSize="25sp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Burned Calories"
+                    android:gravity="center"
+                    android:textColor="#C6FF00"
+                    android:layout_gravity="center_horizontal"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="18dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="join Date"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12 march 2017"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calories Intake"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2457"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kCal"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:layout_gravity="center_horizontal"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Plan"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lose"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1Kg/"
+                        android:textSize="15sp"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Month"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:layout_gravity="center_horizontal"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Activity"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="18dp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/green_roound_btn"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#c63713"/>
+    </LinearLayout>
