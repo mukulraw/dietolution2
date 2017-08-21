@@ -22,7 +22,7 @@
             android:orientation="horizontal"
             android:background="@drawable/linear_stroke">
 
-            <com.example.tvs.dietolution.RoundedImageView
+            <com.tbx.fitness.graphy.RoundedImageView
                 android:id="@+id/imageView_round"
                 android:layout_width="65dp"
                 android:scaleType="centerCrop"
@@ -98,7 +98,7 @@
                 android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
-                <com.example.tvs.dietolution.RoundedImageView
+                <com.tbx.fitness.graphy.RoundedImageView
                     android:id="@+id/imageView4"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
@@ -319,7 +319,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.tvs.dietolution.RoundedImageView
+                    <com.tbx.fitness.graphy.RoundedImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginBottom="18dp"
@@ -369,7 +369,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.tvs.dietolution.RoundedImageView
+                    <com.tbx.fitness.graphy.RoundedImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginBottom="10dp"
@@ -415,7 +415,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.tvs.dietolution.RoundedImageView
+                    <com.tbx.fitness.graphy.RoundedImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginBottom="18dp"
@@ -487,7 +487,7 @@
             android:layout_marginStart="18dp"
             android:orientation="horizontal">
 
-            <com.example.tvs.dietolution.RoundedImageView
+            <com.tbx.fitness.graphy.RoundedImageView
 
                 android:id="@+id/roundedImageView"
                 android:layout_width="65dp"
@@ -615,7 +615,7 @@
         android:layout_marginStart="18dp"
         android:orientation="horizontal">
 
-        <com.example.tvs.dietolution.RoundedImageView
+        <com.tbx.fitness.graphy.RoundedImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginBottom="10dp"

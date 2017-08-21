@@ -25,7 +25,7 @@
  * reference material, and as a result, were extremely helpful.
  */
 
-package com.example.tvs.dietolution;
+package com.tbx.fitness.graphy;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -26,7 +26,7 @@
             android:layout_weight="1">
 
 
-            <com.example.tvs.dietolution.RoundedImageView
+            <com.tbx.fitness.graphy.RoundedImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/ladki"

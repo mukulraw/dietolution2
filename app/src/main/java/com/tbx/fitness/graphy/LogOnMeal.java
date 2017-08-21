@@ -1,4 +1,4 @@
-package com.example.tvs.dietolution;
+package com.tbx.fitness.graphy;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,15 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class MealList extends Fragment {
+
+public class LogOnMeal extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View v = inflater.inflate(R.layout.meal_list , container ,false);
-
-
-
+        View v = inflater.inflate(R.layout. log_on_meal , container ,false);
         return v;
     }
 }

@@ -11,7 +11,7 @@
         android:background="#009688">
 
 
-        <com.example.tvs.dietolution.RoundedImageView
+        <com.tbx.fitness.graphy.RoundedImageView
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="18dp"

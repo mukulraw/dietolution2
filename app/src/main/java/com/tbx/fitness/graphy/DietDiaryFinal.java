@@ -1,4 +1,4 @@
-package com.example.tvs.dietolution;
+package com.tbx.fitness.graphy;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -18,6 +18,7 @@ public class DietDiaryFinal extends Fragment {
     Button btn;
     RelativeLayout rl;
     Toolbar toolbar;
+    RelativeLayout activity , analysis;
 
 
 
@@ -34,7 +35,39 @@ public class DietDiaryFinal extends Fragment {
         lv = (LinearLayout)v.findViewById(R.id.lin);
         lv1 = (LinearLayout)v.findViewById(R.id.timeline);
         rl = (RelativeLayout)v.findViewById(R.id.relative);
+        activity = (RelativeLayout)v.findViewById(R.id.activity);
+        analysis = (RelativeLayout)v.findViewById(R.id.analysis);
 
+
+        activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                FragmentManager fragmentManager =((MainActivity) getContext()).getSupportFragmentManager();
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                Activity_page fragment = new Activity_page();
+                ft.replace(R.id.replace, fragment);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
+                ft.addToBackStack(null);
+                ft.commit();
+
+            }
+        });
+
+        analysis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                FragmentManager fragmentManager =((MainActivity) getContext()).getSupportFragmentManager();
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                AnalysisReport fragment = new AnalysisReport();
+                ft.replace(R.id.replace, fragment);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
+                ft.addToBackStack(null);
+                ft.commit();
+
+            }
+        });
 
         lv.setOnClickListener(new View.OnClickListener() {
             @Override

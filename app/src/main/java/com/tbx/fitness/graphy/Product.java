@@ -1,4 +1,4 @@
-package com.example.tvs.dietolution;
+package com.tbx.fitness.graphy;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,22 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by tvs on 8/19/2017.
- */
 
-public class AnalysisReport extends Fragment {
-
+public class Product extends Fragment {
     Toolbar toolbar;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.daily_analysis_report , container , false);
+        View v = inflater.inflate(R.layout .product , container , false);
 
         toolbar = (Toolbar) ((MainActivity)getContext()).findViewById(R.id.toolbar);
-
-
 
         return v;
     }
@@ -32,7 +25,7 @@ public class AnalysisReport extends Fragment {
     public void onResume() {
         super.onResume();
 
-        toolbar.setTitle("ANALYSIS REPORT");
+        toolbar.setTitle("PRODUCT DETAILS");
 
     }
 
